@@ -1,0 +1,111 @@
+
+.infmes h3
+{
+	font-weight: 300;
+	font-size: 27px;
+	color: #444444;
+}
+.infmes p{
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: 16px;
+	color: #444444;
+	
+}
+
+.infmes ul
+{
+	list-style: none;
+	li{
+		color: #444444;
+		font-size: 17px;
+		padding: 5px 0px;
+		
+	}
+}
+
+/* This is the ending of about */
+
+/*Starting of our Moto */
+
+.wcover
+{
+	background: #fff7f2;
+	height: auto;
+	background-attachment: fixed;
+	padding-bottom: 30px;
+}
+
+.rcondtl
+{
+	background: #ffffff;
+	width: 100%;
+}
+.rcondtl a
+{
+	text-decoration: none;
+	color: #e7774f;
+	font-size: 30px;
+	
+}
+
+
+/* team */
+
+.team
+{
+	background: #FFFFCC;
+}
+
+.tbox
+{
+	padding: 5px;
+}
+
+.tboxdet
+{
+	width: 100%;
+	background: lightcyan;
+	transition: 1s;
+	&:hover
+	{
+		box-shadow: 1px 1px 5px blue;
+	}
+}
+
+.tboxdet h5
+{
+	font-size: 25px;
+	font-weight: 600;
+	color: #1b0e83;
+	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+.tboxdet h6
+{
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffd700;
+	padding-top: 0px;
+	margin-top: -10px;
+}
+.tboxdet li
+{
+	list-style: none;
+	display: inline;
+	padding-bottom: 20px;
+	a{
+		color: #ffd700;
+		padding: 10px;
+		font-size: 25px;
+		transition:1s;
+		&:hover
+		{
+			color:#1b0e83;
+			font-size: 30px;
+		}
+
+	}
+}
+/* team */

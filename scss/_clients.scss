@@ -1,0 +1,120 @@
+.hero-bkg-animated {
+  background: gray url(../img/movgomet.webp) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: auto;
+  padding-top: 40px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+  padding-bottom: 30px;
+}
+
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+
+.tes
+{
+  border: 2px solid grey;
+  box-shadow: 2px 1px 2px 2px gold;
+  background: rgba(0,0,0,0.2);
+  padding: 15px 10px;
+  margin-top: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+}
+.mes 
+{
+  padding: 20px 10px;
+}
+.mes p
+{
+  font-size: 18px;
+  color: #ffff;
+}
+.mes p span
+{
+  font-size: 35px;
+  color: green;
+}
+
+.mes h3
+{
+  font-size: 35px;
+  color: green;
+  font-weight: 600;
+}
+.mes h4
+{
+  font-size: 27px;
+  color: green;
+  font-size: 500;
+}
+.mes h4 span
+{
+  color: yellow;
+  font-size: 22px;
+}
+
+
+
+/* Owl Setup   */
+
+.owl-carousel .owl-nav button.owl-prev{
+    background: red;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    top: 50%; 
+    left: 0%;
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    span{
+      font-size: 50px;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      top: -40%;
+
+    }
+}
+.owl-carousel .owl-nav button.owl-next
+{
+  background: red;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    top:50%;
+    right: 0%;
+    width: 50px;
+    height:50px;
+    border-radius: 70px;
+    span{
+      font-size: 50px;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      top: -40%;
+
+    }
+
+}
+ .owl-carousel button.owl-dot 
+ {
+  background:red;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+ }

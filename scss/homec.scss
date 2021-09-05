@@ -1,0 +1,65 @@
+.homecov
+{
+	background: linear-gradient(rgba(179, 255, 204,0.4),rgba(179, 255, 204,0.4)), url('../img/bgcover.jpg');
+	height: 80vh;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+/* navigation  css Starts*/
+
+
+/* Navigation css ending */
+.intro 
+{
+	padding-top: 100px;
+}
+
+.intro h1
+{
+	margin: 0 0 10px 0;
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 56px;
+	line-height: 56px;
+	color: #ffd700;
+}
+
+.intro h4
+{
+	color: #ffd700;
+	margin-bottom: 30px;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.intro form
+{
+  padding-top: 20px;
+}
+
+.intro form input
+{
+	padding: 7px 22px 7px 22px;
+	margin: 5px 10px;
+	color: #000;
+	font-size: 16px;
+	text-align: left;
+	border-radius: 25px;
+	border: none;
+}
+
+.intro form button
+{
+	border: none;
+	border-radius: 25px;
+	padding:8px 30px;
+	margin-top: 15px;
+	background-color: #fd680e;
+	font-size: 18px;
+	color: #ffffff;
+	&:hover
+	{
+		background-color: #ffd700;
+	}
+}

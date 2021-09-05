@@ -1,0 +1,10 @@
+$(window).scroll(function(){
+        if($(this).scrollTop()>50)
+        {
+          $(".bg-lighta").addClass("red")
+        }
+        else
+        {
+          $(".bg-lighta").removeClass("red")
+        }
+      })

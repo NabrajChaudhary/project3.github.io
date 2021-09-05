@@ -1,0 +1,130 @@
+.product
+{
+	background: rgba(212, 234, 255,0.3);
+}
+
+.pdet
+{
+	padding: 15px;
+	background: #fff;
+	margin: auto;
+	margin: 10px;
+}
+.pdet h3
+{
+	text-align: center;
+	font-size: 30px;
+	color: navy;
+}
+.pdet img
+{
+	margin: auto;
+}
+.pdet h3
+{
+	font-size: 30px;
+	font-weight: 600;
+	color: #ffd700;
+}
+
+.pdet p
+{
+	padding: 30px;
+}
+.pbuton
+{
+	margin-left: 30px;
+	background: #180685;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	font-weight: bolder;
+	&:hover
+	{
+		background: #ffd700;
+	}
+}
+.pdet a
+{
+	text-decoration: none;
+}
+
+/*Services css  */
+
+.services
+{
+	background: rgba(212,234,255,0.6);
+}
+
+.sbox1
+{
+	background: none;
+	padding: 40px 15px;
+
+}
+.sbox11
+{
+	background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2));
+	height: 175px;
+	width: 320px;
+	margin: 30px 5px;
+	position: relative;
+}
+
+.sboxcir
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: #f4f0f0 !important;
+	position: absolute;
+	transform: translate(110%, -40%);
+	border: 7px solid #fff;
+	&:hover
+	{
+		background: #fff !important;
+	}
+}
+
+.sboxcir img
+{
+	position: absolute;
+	top: 5%;
+	left: 1%;
+	
+
+}
+
+.sboxbane
+{
+	background: url('../img/title.png');
+	background-repeat: no-repeat;
+	height: 100%;
+	position: relative;
+	left: 5%;
+	top:38%;
+}
+
+.sboxbane h5
+{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 2px;
+	padding-right: 43px;
+}
+.sboxbane a
+{
+	text-align: center;
+	text-decoration:none;
+	margin-left: 70px;
+	padding-top: 20px;
+	color: #000;
+	&:hover
+	{
+		color: #000;
+	}
+}
+
